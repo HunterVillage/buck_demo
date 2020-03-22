@@ -1,0 +1,49 @@
+name: buck_demo
+description: A new Buck demo.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  buck: ^0.1.3+2
+  flutter_earth: ^0.0.4
+  image_picker: ^0.6.2+1
+  encrypt: ^4.0.0
+  multiple_select: ^0.1.22
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/bundle1.png
+    - assets/images/bundle2.png
+    - assets/images/bundle3.png
+    - assets/images/background.png
+    - assets/images/logo.png
+    - assets/city.json
+    - assets/rsa/private_key.pem
+    - assets/rsa/public_key.pem
+
+  fonts:
+    - family: shouji
+      fonts:
+        - asset: assets/fonts/FangZhengShouJi.TTF
+          weight: 500
+    - family: pinshang
+      fonts:
+        - asset: assets/fonts/FangZhengPinShang.TTF
+          weight: 500
+    - family: myicons
+      fonts:
+        - asset: assets/icons/my_icon.ttf
