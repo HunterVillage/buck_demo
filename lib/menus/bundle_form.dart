@@ -57,8 +57,8 @@ List<MultipleSelectItem> elements = List.generate(
   ),
 );
 
-class BundleDeliver extends StatefulMenu {
-  BundleDeliver({Key key}) : super(key: key);
+class BundleForm extends StatefulMenu {
+  BundleForm({Key key}) : super(key: key);
 
   @override
   Widget get icon => Icon(MyIcons.deliver, color: Colors.brown);
@@ -70,13 +70,13 @@ class BundleDeliver extends StatefulMenu {
   int get sort => 2;
 
   @override
-  String get cnName => 'deliver';
+  String get cnName => 'Form';
 
   @override
   State<StatefulWidget> createState() => BundleDeliverState();
 }
 
-class BundleDeliverState extends State<BundleDeliver> {
+class BundleDeliverState extends State<BundleForm> {
   double _length;
   String _mediaBatch;
   bool _swellingCheck;

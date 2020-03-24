@@ -3,7 +3,7 @@ import 'package:buck/constant/icon_constant.dart';
 import 'package:buck/widgets/dynamic_list.dart';
 import 'package:flutter/material.dart';
 
-class BundleShopping extends StatelessMenu {
+class BundleList extends StatelessMenu {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -47,5 +47,5 @@ class BundleShopping extends StatelessMenu {
   int get sort => 4;
 
   @override
-  String get cnName => 'shopping';
+  String get cnName => 'List';
 }
