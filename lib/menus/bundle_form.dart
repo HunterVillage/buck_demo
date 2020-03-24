@@ -129,6 +129,7 @@ class BundleDeliverState extends State<BundleForm> {
             },
           ),
           Divider(height: 1),
+          /// FIXME disabled 不起作用
           Selector(
             leading: Icon(Icons.straighten, color: Theme.of(context).hintColor),
             value: _mediaBatch,
